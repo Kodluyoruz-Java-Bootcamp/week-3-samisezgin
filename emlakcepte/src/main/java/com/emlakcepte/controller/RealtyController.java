@@ -14,8 +14,8 @@ import com.emlakcepte.model.Realty;
 import com.emlakcepte.model.RealtyCategory;
 import com.emlakcepte.service.RealtyService;
 
-//@RestController
-//@RequestMapping(value = "/realties")
+@RestController
+@RequestMapping(value = "/realties")
 public class RealtyController
 {
 	@Autowired
